@@ -30,7 +30,7 @@ import matplotlib.pyplot as plt
 img1=np.zeros((100,600),dtype='uint8')
 font=cv2.FONT_HERSHEY_COMPLEX_SMALL
 # Create the Text using cv2.putText
-cv2.putText(img1,' AVENGERS ASSEMBLE ',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'MANOJ CHOUDHARY V',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img1,cmap='gray')
 plt.title('Input Text'), plt.xticks([]), plt.yticks([])
 plt.show()
